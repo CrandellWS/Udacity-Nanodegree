@@ -14,7 +14,7 @@ def rename_files():
   
   # for each file in list rename it
   for file_name in file_list:
-    os.rename(file_name, search _directory+file_name.translate(None, "0123456789"))
+    os.rename(file_name, search_directory+file_name.translate(None, "0123456789"))
 
   os.chdir(saved_path)
 rename_files()
