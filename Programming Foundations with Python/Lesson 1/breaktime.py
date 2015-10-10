@@ -7,4 +7,4 @@ while i < 3:
 
     time.sleep(3)
     webbrowser.open("https://www.youtube.com/watch?v=sjEbloAvI2c")
-    i++
+    i = i + 1
