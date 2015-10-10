@@ -3,8 +3,9 @@
 ## Links
 Link to Udacity for Lesson 1: https://www.udacity.com/course/viewer#!/c-ud036
 
-YouTube playlist of Lesson 1: https://www.youtube.com/playlist?list=PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX
+YouTube playlist of Lesson 1: [PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX](https://www.youtube.com/playlist?list=PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX)
 
+Letter Images for the mini project [Zip Archive](https://github.com/CrandellWS/Udacity-Nanodegree/blob/master/Programming%20Foundations%20with%20Python/Lesson%201/extras/Letters/png-letters.zip)
 ### Notes
 
 #### 1)
