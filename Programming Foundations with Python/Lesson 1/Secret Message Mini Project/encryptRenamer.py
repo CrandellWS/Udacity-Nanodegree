@@ -20,9 +20,8 @@ def encryptDirFileNames(parent_directory):
      fLetters = random.choice(string.ascii_uppercase)
      while i < nLetters:
        fLetters = fLetters + random.choice(string.ascii_uppercase)
-       print(fLetters + file_name)
        i = i + 1 
-    
+     print(fLetters + file_name)
 ##def removeNumbersFromFilesInDir(search_directory):
 ##  # get file in folder
 ##
