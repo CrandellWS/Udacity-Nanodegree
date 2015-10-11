@@ -68,7 +68,7 @@ def init_turtle(value_input):
 def try_it(value_input):
   the_turtle = init_turtle(value_input)
   i = 0
-  while(i < 18):
+  while(i < 36):
     the_turtle.left(99)
     the_turtle.forward(216)
     the_turtle.backward(216)
