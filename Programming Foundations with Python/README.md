@@ -7,6 +7,8 @@ YouTube playlist of Lesson 1: [PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX](https://www.y
 
 Letter Images for the mini project [Zip Archive](https://github.com/CrandellWS/Udacity-Nanodegree/blob/master/Programming%20Foundations%20with%20Python/Lesson%201/extras/Letters/png-letters.zip)
 
+PDF copies of my Shell output, and source code have been provided for Lesson 1 but will be omitted for future lessons. 
+
 ## Lesson 2 Links
 
 YouTube playlist of Lesson 2: [PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE](https://www.youtube.com/playlist?list=PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE)
