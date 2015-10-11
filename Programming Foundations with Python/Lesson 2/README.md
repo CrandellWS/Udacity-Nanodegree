@@ -13,6 +13,7 @@
     - [Crash Course ...](http://www.algorithm.co.il/blogs/computer-science/fractals-in-10-minutes-no-6-turtle-snowflake/)
   - http://www.cs.swarthmore.edu/~richardw/cs21-s08/lab10.php
   - External Lab project [Lab 10: Turtles and Fractals](http://www.cs.swarthmore.edu/~richardw/cs21-s08/lab10.php)
+  - (More on Fractals)(http://natureofcode.com/book/chapter-8-fractals/)
 
 ##### lambda <- deserved it's own header
 [The lambda expression](https://docs.python.org/2/tutorial/controlflow.html#lambda-expressions) Sounded intimidating
