@@ -69,7 +69,7 @@ def try_it(value_input):
   the_turtle = init_turtle(value_input)
   i = 0
   while(i < 36):
-    the_turtle.left(99)
+    the_turtle.left(100)
     the_turtle.forward(216)
     the_turtle.backward(216)
     the_turtle.right(90)
@@ -83,12 +83,12 @@ def try_it_with_koch(value_input):
   the_turtle = init_turtle(value_input)
   i = 0
   while(i < 36):
-    the_turtle.left(99)
+    the_turtle.right(100)
     the_turtle.forward(216)
     the_turtle.backward(216)
-    the_turtle.right(90)
+    the_turtle.left(90)
     i = i + 1
-    koch(the_turtle, 3, 18)
+    koch(the_turtle, 3, 36)
     the_turtle.right(360/18)
 
 def start_drawing_star(value_input):
