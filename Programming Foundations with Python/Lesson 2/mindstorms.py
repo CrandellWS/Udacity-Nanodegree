@@ -62,8 +62,8 @@ def draw_triangle(value_input):
   
 def start_drawing():
   draw_square("Parker")
-  draw_triangle("Sugar")
-  draw_circle("Lucy")
+##  draw_triangle("Sugar")
+##  draw_circle("Lucy")
 
 
 ## window is my screen
