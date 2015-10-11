@@ -1,5 +1,5 @@
 import turtle
-
+import math
 
 ## Though it was the lambda statement that got my interest.
 def koch(the_turtle,depth, size):
@@ -70,8 +70,8 @@ def try_it(value_input):
   i = 0
   while(i < 36):
     the_turtle.left(100)
-    the_turtle.forward(216)
-    the_turtle.backward(216)
+    the_turtle.forward(18 * 36 * 10 / math.pi / 9)
+    the_turtle.backward(18 * 36 * 10 / math.pi / 9)
     the_turtle.right(90)
     i = i + 1
     my_koch(the_turtle, 3, 18)
