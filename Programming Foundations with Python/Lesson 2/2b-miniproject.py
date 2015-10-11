@@ -48,13 +48,13 @@ def start_drawing_star(value_input):
   i = 0
   while(i < 3):
     i = i + 1
+    start_drawing_snowflake(the_turtle)
     koch(the_turtle, 3, 3**4)
     the_turtle.right(360/3)
     koch2(the_turtle, 4, 3**3)
     the_turtle.right(360/3)
 
-def start_drawing_snowflake(value_input):
-  the_turtle = init_turtle(value_input)
+def start_drawing_snowflake(the_turtle):
   i = 0
   while(i < 4):
     i = i + 1
@@ -65,5 +65,4 @@ def start_drawing_snowflake(value_input):
 window = turtle.Screen()
 window.bgcolor("green")
 start_drawing_star("Parker")
-start_drawing_snowflake("Parker")
 window.exitonclick()
