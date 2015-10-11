@@ -5,4 +5,6 @@
 
 ## Notes
 
-[An Article on fractals for the 2a mini project](https://georgemdallas.wordpress.com/2014/05/02/what-are-fractals-and-why-should-i-care/)
+  - [An Article on fractals for the 2a mini project](https://georgemdallas.wordpress.com/2014/05/02/what-are-fractals-and-why-should-i-care/)
+
+  - [Better yet an article on turtle drawn fractals](http://www.fractalcurves.com/Turtle.html)
