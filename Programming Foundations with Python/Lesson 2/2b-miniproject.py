@@ -46,7 +46,7 @@ def init_turtle(value_input):
 def start_drawing_star(value_input):
   the_turtle = init_turtle(value_input)
   i = 0
-  while(i < 12):
+  while(i < 3):
     i = i + 1
     koch(the_turtle, 3, 3**4)
     the_turtle.right(360/3)
