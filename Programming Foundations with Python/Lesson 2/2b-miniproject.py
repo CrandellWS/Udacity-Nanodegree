@@ -55,14 +55,15 @@ def start_drawing_star(value_input):
     the_turtle.right(360/3)
 
 def start_drawing_snowflake(the_turtle):
+  the_turtle = init_turtle(the_turtle)
   i = 0
-  while(i < 4):
+  while(i < 12):
     i = i + 1
-    koch(the_turtle, 4, 4**4)
-    the_turtle.right(360/4)
+    koch(the_turtle, 3, 3**4)
+    the_turtle.right(360/12)
     
 ## window is my screen
 window = turtle.Screen()
 window.bgcolor("green")
-start_drawing_star("Parker")
+start_drawing_snowflake("Parker")
 window.exitonclick()
