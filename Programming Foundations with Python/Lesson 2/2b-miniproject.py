@@ -65,7 +65,8 @@ def init_turtle(value_input):
   value_input.left(45)
   return value_input
   
-def try_it(value_input, sides, degrees, offset):
+def try_it(value_input, sides, degrees):
+  offset = 360 / sides
   the_turtle = init_turtle(value_input)
   i = 0
   while(i < sides):
@@ -115,5 +116,5 @@ def start_drawing_snowflake(the_turtle):
 window = turtle.Screen()
 window.bgcolor("green")
 ##start_drawing_snowflake("Parker")
-try_it("Parker", 36, 18, 10)
+try_it("Parker", 24, 12)
 window.exitonclick()
