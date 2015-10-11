@@ -11,6 +11,8 @@ Letter Images for the mini project [Zip Archive](https://github.com/CrandellWS/U
 
 YouTube playlist of Lesson 2: [PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE](https://www.youtube.com/playlist?list=PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE)
 
+ Related Wikipedia Article: [https://en.wikipedia.org/wiki/Turtle_(robot)](https://en.wikipedia.org/w/index.php?title=Turtle_(robot)&oldid=635620745)
+
 ## Notes
 
 ### Note 1)
