@@ -70,8 +70,8 @@ def try_it(value_input, sides, degrees, offset):
   i = 0
   while(i < sides):
     the_turtle.left(offset + 90)
-    the_turtle.forward(degrees * sides * offset / math.pi / (degrees/(offset/degrees)))
-    the_turtle.backward(degrees * sides * offset / math.pi / (degrees/(offset/degrees)))
+    the_turtle.forward(degrees * sides * offset / math.pi / (degrees/(sides/degrees)))
+    the_turtle.backward(degrees * sides * offset / math.pi / (degrees/(sides/degrees)))
     the_turtle.right(90)
     i = i + 1
     my_koch(the_turtle, 3, degrees)
