@@ -65,17 +65,17 @@ def init_turtle(value_input):
   value_input.left(45)
   return value_input
   
-def try_it(value_input):
+def try_it(value_input, sides, degrees, offset):
   the_turtle = init_turtle(value_input)
   i = 0
-  while(i < 36):
-    the_turtle.left(100)
-    the_turtle.forward(18 * 36 * 10 / math.pi / 9)
-    the_turtle.backward(18 * 36 * 10 / math.pi / 9)
+  while(i < sides):
+    the_turtle.left(offset + 90)
+    the_turtle.forward(degrees * sides * offset / math.pi / (degrees/(offset/degrees)))
+    the_turtle.backward(degrees * sides * offset / math.pi / (degrees/(offset/degrees)))
     the_turtle.right(90)
     i = i + 1
-    my_koch(the_turtle, 3, 18)
-    the_turtle.right(360/18)
+    my_koch(the_turtle, 3, degrees)
+    the_turtle.right(360/degrees)
 
 
   
@@ -115,5 +115,5 @@ def start_drawing_snowflake(the_turtle):
 window = turtle.Screen()
 window.bgcolor("green")
 ##start_drawing_snowflake("Parker")
-try_it("Parker")
+try_it("Parker", 36, 18, 10)
 window.exitonclick()
