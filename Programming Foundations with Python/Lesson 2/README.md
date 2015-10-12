@@ -13,7 +13,9 @@
     - [Crash Course ...](http://www.algorithm.co.il/blogs/computer-science/fractals-in-10-minutes-no-6-turtle-snowflake/)
   - http://www.cs.swarthmore.edu/~richardw/cs21-s08/lab10.php
   - External Lab project [Lab 10: Turtles and Fractals](http://www.cs.swarthmore.edu/~richardw/cs21-s08/lab10.php)
-  - (More on Fractals)(http://natureofcode.com/book/chapter-8-fractals/)
+  - [More on Fractals](http://natureofcode.com/book/chapter-8-fractals/)
+  - [Examples for Turtle Graphics](http://jython.tobiaskohn.ch/turtlex.html)
+  - [3d printing with Turtle Grpahics??](http://www.kanadas.com/papers-e/2015/04/supportless_horizontal_filamen.html)
 
 ##### lambda <- deserved it's own header
 [The lambda expression](https://docs.python.org/2/tutorial/controlflow.html#lambda-expressions) Sounded intimidating
@@ -60,7 +62,7 @@ def koch(depth, size):
         recurse()
         left(60)
         recurse()
- 
+
 koch(3, 3**4)
 ```
 ##### Other Notes

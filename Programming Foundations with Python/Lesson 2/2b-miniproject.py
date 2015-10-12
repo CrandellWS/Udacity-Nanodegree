@@ -30,7 +30,7 @@ def koch2(the_turtle,depth, size):
 
 def my_koch(the_turtle,depth, size):
   if depth < 2:
-    the_turtle.backward(size)
+    the_turtle.forward(size)
   else:
     recurse = lambda: my_koch(the_turtle,depth-1, size/3)
     recurse2 = lambda: my_koch(the_turtle,depth-1, size/6)
@@ -39,10 +39,6 @@ def my_koch(the_turtle,depth, size):
     recurse()
     the_turtle.right(120)
     recurse2()
-    the_turtle.left(120)
-    recurse()
-    the_turtle.right(120)
-    recurse()
     the_turtle.left(120)
     recurse2()
     the_turtle.right(120)
@@ -71,21 +67,18 @@ def try_it(value_input, sides, length):
   the_turtle = init_turtle(value_input)
   window.register_shape(value_string+".gif")
   the_turtle.shape(value_string+".gif")
+  the_turtle.backward(1600)
   the_turtle.right(90)
   the_turtle.up()
-  the_turtle.forward(200)
+  the_turtle.forward(800)
   the_turtle.down()
   the_turtle.left(90)
   i = 0
-  o2 = 230
+  o2 = 234
   while(i < sides):
-    the_turtle.left(offset + 90)
-    the_turtle.forward(o2)
-    the_turtle.backward(o2)
-    the_turtle.right(90)
     i = i + 1
     my_koch(the_turtle, 3, length)
-    the_turtle.right(360/length)
+    the_turtle.right(360/18)
 
 
   
@@ -118,12 +111,12 @@ def start_drawing_snowflake(the_turtle):
   the_turtle.left(240)
   while(i < 3):
     i = i + 1
-    koch2(the_turtle, 1, 3**4)
+    koch2(the_turtle, 3, 3**3)
     the_turtle.left(360/3)
     
 ## window is my screen
 window = turtle.Screen()
 window.bgcolor("green")
 ##start_drawing_snowflake("Parker")
-try_it("Sugar", 36, 18)
+try_it("Sugar", 1, 3**7)
 window.exitonclick()
