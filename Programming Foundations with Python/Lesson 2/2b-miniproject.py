@@ -53,8 +53,8 @@ def my_koch(the_turtle,depth, size):
 def init_turtle(value_input):
   value_string = str(value_input)
   value_input = turtle.Turtle()
-##  window.register_shape(value_string+".gif")
-##  value_input.shape(value_string+".gif")
+  window.register_shape(value_string+".gif")
+  value_input.shape(value_string+".gif")
   value_input.shape("turtle")
   value_input.pencolor("brown")
   value_input.speed(0)
@@ -65,18 +65,27 @@ def init_turtle(value_input):
   value_input.left(45)
   return value_input
   
-def try_it(value_input, sides, degrees):
+def try_it(value_input, sides, length):
   offset = 360 / sides
+  value_string = value_input
   the_turtle = init_turtle(value_input)
+  window.register_shape(value_string+".gif")
+  the_turtle.shape(value_string+".gif")
+  the_turtle.right(90)
+  the_turtle.up()
+  the_turtle.forward(200)
+  the_turtle.down()
+  the_turtle.left(90)
   i = 0
+  o2 = 230
   while(i < sides):
     the_turtle.left(offset + 90)
-    the_turtle.forward(degrees * sides * offset / math.pi / (degrees/(sides/degrees)))
-    the_turtle.backward(degrees * sides * offset / math.pi / (degrees/(sides/degrees)))
+    the_turtle.forward(o2)
+    the_turtle.backward(o2)
     the_turtle.right(90)
     i = i + 1
-    my_koch(the_turtle, 3, degrees)
-    the_turtle.right(360/degrees)
+    my_koch(the_turtle, 3, length)
+    the_turtle.right(360/length)
 
 
   
@@ -116,5 +125,5 @@ def start_drawing_snowflake(the_turtle):
 window = turtle.Screen()
 window.bgcolor("green")
 ##start_drawing_snowflake("Parker")
-try_it("Parker", 24, 12)
+try_it("Sugar", 36, 18)
 window.exitonclick()
