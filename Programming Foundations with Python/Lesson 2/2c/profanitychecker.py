@@ -1,3 +1,4 @@
+import urllib
 class ProfanityChecker:
     
     def __init__(self,file_):
@@ -21,12 +22,19 @@ class ProfanityChecker:
             
       
     def process_line(self, line):
+        self.process_online(line)
         ## https://docs.python.org/2/library/string.html?highlight=split#string.split
         words = line.split()
         for i,word in enumerate(words):
             words[i] = self.run_check(word)
         return words
 
+    def process_online(self, line):
+        conn = urllib.urlopen("http://www.wdyl.com/profanity?q="+line)
+        output = conn.read()
+        print(output)
+        conn.close()
+    
     def run_check(self, word):
         ## bad
         bad_words = dict(
@@ -37,12 +45,13 @@ class ProfanityChecker:
             cunt=4,
             bastard=3
         )
+
         return [word, bad_words[word]]if word in bad_words else word
 
 
 ## added as Example 
 file_ = ProfanityChecker("README.md")
-if(file_warning):
+if(file_.file_warning):
     print("Warnings have been found")
 else:
     print("No undesired words were found")
