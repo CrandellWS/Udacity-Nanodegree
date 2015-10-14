@@ -61,7 +61,6 @@ def try_it(value_input, sides, length):
   the_turtle.fillcolor("#EED202")
   the_turtle.pencolor("green")
   i = 0
-  print(the_turtle.pensize())
   the_turtle.pensize(1)
   while(i < sides):
     the_turtle.begin_fill()
