@@ -35,7 +35,7 @@ def try_it(value_input, sides, length):
   i = 0
   while(i < sides):
     print("i", i)
-    the_turtle.fill(True)
+    the_turtle.begin_fill()
     i = i + 1
     w_for_william(the_turtle, 3 , length)
     the_turtle.right(360/sides)
@@ -51,7 +51,7 @@ def try_it(value_input, sides, length):
         m = m + 1
         w_for_william(the_turtle, 3 , length * 2*3)
         the_turtle.right(360/sides*2*3)
-    the_turtle.fill(False)
+    the_turtle.end_fill()
     
   the_turtle.fillcolor("black")
   the_turtle.goto(0, -50)
