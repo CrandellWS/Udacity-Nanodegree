@@ -1,7 +1,7 @@
 ## needed to add directory to path
 import os.path, sys
 ## adding directory outside of repository to path
-sys.path.append("C:\Users\William\Projects\python\Udacity - Non Github\AuthTokens")
+sys.path.append(r"C:\Users\William\Projects\python\Udacity - Non Github\AuthTokens")
 ## to import the real auth data
 import twilioauth
 
@@ -18,4 +18,4 @@ client = TwilioRestClient(account_sid, auth_token)
 message = client.messages.create(body="Morning Mom, Are you going to be able to give me a ride tomorrow? I can ride the bus.",
     to=auth_data.to,    # Replace with your phone number
     from_=auth_data.from_) # Replace with your Twilio number
-print message.sid
+print(message.sid)
