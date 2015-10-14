@@ -29,13 +29,22 @@ class ProfanityChecker:
 
     def run_check(self, word):
         ## bad
-        bad_words = {
-            "shit":5,
-            "fuck":5,
-            "bitch":5,
-            "asshole":5,
-            "cunt":4,
-            "bastard":3
-        }
+        bad_words = dict(
+            shit=5,
+            fuck=5,
+            bitch=5,
+            asshole=5,
+            cunt=4,
+            bastard=3
+        )
         return [word, bad_words[word]]if word in bad_words else word
 
+
+## added as Example 
+file_ = ProfanityChecker("README.md")
+if(file_warning):
+    print("Warnings have been found")
+else:
+    print("No undesired words were found")
+
+    
