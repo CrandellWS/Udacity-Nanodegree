@@ -24,11 +24,10 @@
             - bad words are list types
             - other words are strings
 
+  Additionally will preform a profanity check with an external service  https://www.wdyl.com/
+  When internet access is unavailable it fails gracefully but will only detect words in the internal dictionary list.
 
-[GitHub link to the source code](https://github.com/CrandellWS/Udacity-Nanodegree/tree/b8c82d318364125bad5dea8dd7c6cf826e85b9c3/Programming%20Foundations%20with%20Python/Lesson%202/2c)
-
-
-## Problems ##
+## Problems During Creation ##
 
 Tried to work with [`set()`](https://docs.python.org/2/library/functions.html?highlight=enumerate#func-set) and it seems like it could be used, may even be an improvement from what I have but I used **`list()`** and **`dict()`** instead.
 
@@ -45,5 +44,7 @@ This file will be checked for profanity with a dictionary of words to filter.
 The word bastard is being used for test purposes.
 
 As well as this shit
+
+A mule is an ass will pass the internal database but fail the online check.
 
 Thank you for your understanding
