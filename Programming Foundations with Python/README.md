@@ -29,7 +29,7 @@ Lesson [**2c** Link](https://www.udacity.com/course/viewer#!/c-ud036/l-993510820
 
 ___
 
- ### [Lesson 3](https://www.udacity.com/course/viewer#!/c-ud036/l-997889780)
+### [Lesson 3](https://www.udacity.com/course/viewer#!/c-ud036/l-997889780)
 ---
 
  Lesson 3 YouTube playlist ID: [PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn](https://www.youtube.com/playlist?list=PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn)
