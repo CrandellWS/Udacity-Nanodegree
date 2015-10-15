@@ -24,5 +24,10 @@ ___
  
 ___
 
+#### Useful Links
+
+[Google Python Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
+
+___
 
 ###### Info: Curriculum is subject to change at a future date, be sure to use the [Udacity dashboard](https://www.udacity.com/me#!/).
