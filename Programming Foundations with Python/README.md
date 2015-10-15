@@ -1,31 +1,39 @@
-# [Programming Foundations with Python](https://www.udacity.com/course/ud036)
+# [Nanodegree](https://www.udacity.com/nanodegree)
 
-## Lesson 1 Links
-Link to Udacity for Lesson 1: https://www.udacity.com/course/viewer#!/c-ud036
+## [Programming Foundations with Python](https://www.udacity.com/course/ud036)
+---
 
-YouTube playlist of Lesson 1: [PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX](https://www.youtube.com/playlist?list=PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX)
+### [Lesson 1](https://www.udacity.com/course/viewer#!/c-ud036/l-993460168/m-1015728585)
+---
+
+ Lesson 1 YouTube playlist ID: [PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX](https://www.youtube.com/playlist?list=PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX)
 
 Letter Images for the mini project [Zip Archive](https://github.com/CrandellWS/Udacity-Nanodegree/blob/master/Programming%20Foundations%20with%20Python/Lesson%201/extras/Letters/png-letters.zip)
 
-PDF copies of my Shell output, and source code have been provided for Lesson 1 but will be omitted for future lessons. 
+PDF copies of my Shell output, and source code have been provided for Lesson 1 but will be omitted for future lessons.
 
-## Lesson 2 Links
+___
 
-YouTube playlist of Lesson 2: [PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE](https://www.youtube.com/playlist?list=PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE)
+### [Lesson 2](https://www.udacity.com/course/viewer#!/c-ud036/l-1004409226/)
+---
+
+Lesson [**2a** Link](https://www.udacity.com/course/viewer#!/c-ud036/l-1004409226/m-1013388851)
+
+Lesson [**2b** Link](https://www.udacity.com/course/viewer#!/c-ud036/l-991551862/e-993510817/m-993510818)
+
+Lesson [**2c** Link](https://www.udacity.com/course/viewer#!/c-ud036/l-993510820/e-999198926/m-1040428761)
+
+ Lesson 2 YouTube playlist ID: [PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE](https://www.youtube.com/playlist?list=PLBxMIgvbjWQh8zCPh-L9wz8NH12UPugOE)
 
  Related Wikipedia Article: [https://en.wikipedia.org/wiki/Turtle_(robot)](https://en.wikipedia.org/w/index.php?title=Turtle_(robot)&oldid=635620745)
 
-## Notes
+___
 
-### Note 1)
-One of the videos titled "*[Opening a File](https://www.youtube.com/watch?v=f8CjSt624pc&list=PLBxMIgvbjWQi2B3cyOopGJJntd9NDC3iX&index=21)*" mentions to prefix the input string path variable with the letter **`r`** and it means "*raw path*" and it instructs python to take the string as it is and not to interpret it any other way. Example:
+ ### [Lesson 3](https://www.udacity.com/course/viewer#!/c-ud036/l-997889780)
+---
 
-> `os.listdir("C:\OOP\prank")`
-Compared to 
-> `os.listdir(r"C:\OOP\prank")`
+ Lesson 3 YouTube playlist ID: [PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn](https://www.youtube.com/playlist?list=PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn)
 
- What's to be noted is [***String Literals***](https://docs.python.org/reference/lexical_analysis.html#literals), after researching some it my belief that it means ***raw string*** not path, as it is used to interpret a path in context but in isolation it is handling a string.
+___
 
-### Note 2)
-Also worth noting is [os.pathsep](https://docs.python.org/library/os.html#os.pathsep)
-and [os.sep](https://docs.python.org/library/os.html#os.sep)
+###### Info: Curriculum is subject to change at a future date, be sure to use the [Udacity dashboard](https://www.udacity.com/me#!/).
