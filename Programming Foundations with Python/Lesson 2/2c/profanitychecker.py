@@ -34,9 +34,10 @@ class ProfanityChecker:
                 print("The file does pass the profanity check")
         except IOError:
             ## https://docs.python.org/2/tutorial/errors.html
-            print 'cannot open', file_
+            ## needed to add parenthesis to print command for 3.x compatibility
+            print('cannot open', file_)
         except:
-            print "Unexpected error:", sys.exc_info()[0]
+            print("Unexpected error:", sys.exc_info()[0])
             raise
       
     def process_line(self, line):
@@ -83,8 +84,8 @@ if(file_.warning):
 else:
     print("No undesired words were found")
 
-
-print("\n") * 3
+## not 3.x compatibile -> print("\n") * 3
+print("\n" * 3)
     
 ## Online Remote Check Example
 
