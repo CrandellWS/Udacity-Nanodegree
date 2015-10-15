@@ -10,8 +10,8 @@
 
 ___
 
-
 #### Notes
+---
 
 ##### Handling Import Exceptions
  - http://stackoverflow.com/a/1618880/1815624
@@ -29,6 +29,14 @@ if __name__ == '__main__':
         print(error)
 ```
 
+___
+
+#### Links
+---
+
+  - Python Classes https://docs.python.org/2/tutorial/classes.html
+  - Python Data Model https://docs.python.org/2/reference/datamodel.html
+  - 
 ___
 
 ###### Info: Curriculum is subject to change at a future date, be sure to use the [Udacity dashboard](https://www.udacity.com/me#!/).
