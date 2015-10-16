@@ -1,7 +1,8 @@
 import media
+from ud036_StarterCode import fresh_tomatoes
 
 ## using a dictionary of dictionaries {} = dict()
-movies = {
+movie_dictionary = {
     "toy_story":{
         "title":"Toy Story",
         "storyline":"A story of a boy and his toys that come to life",
@@ -23,36 +24,10 @@ movies = {
     }
 
 
-the_lion_gaurd = media.Movie(movies["the_lion_gaurd"])
-print(the_lion_gaurd.storyline)
+the_lion_gaurd = media.Movie(movie_dictionary["the_lion_gaurd"])
+toy_story = media.Movie(movie_dictionary["toy_story"])
+avatar = media.Movie(movie_dictionary["avatar"])
 
-the_lion_gaurd.show_trailer()
+movies = [avatar, toy_story, the_lion_gaurd, avatar, toy_story, the_lion_gaurd]
 
-
-##toy_story = media.Movie(movies["toy_story"])
-##print(toy_story.storyline)
-
-##avatar = media.Movie(movies["avatar"])
-##print(avatar.storyline)
-
-##avatar.show_trailer()
-
-
-#### The way that was shown
-##
-##title = "Toy Story"
-##storyline = "A story of a boy and his toys that come to life"
-##poster_image_url = "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg"
-##trailer_youtube_url = "https://www.youtube.com/watch?v=vwyZH85NQC4"
-##
-##toy_story = media.Movie(title, storyline, poster_image_url, trailer_youtube_url)
-####print(toy_story.storyline)
-##
-##
-##title = "Avatar"
-##storyline = "A marine on an alien planet"
-##poster_image_url = "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster."
-##trailer_youtube_url = "http://www.youtube.com/watch?v=-9ceBgWV8io"
-##
-##avatar = media.Movie(title, storyline, poster_image_url, trailer_youtube_url)
-##print(avatar.storyline)
+fresh_tomatoes.open_movies_page(movies)
