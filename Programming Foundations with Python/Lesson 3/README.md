@@ -36,7 +36,7 @@ ___
 
   - Python Classes https://docs.python.org/2/tutorial/classes.html
   - Python Data Model https://docs.python.org/2/reference/datamodel.html
-
+  - Random Remarks https://docs.python.org/2.7/tutorial/classes.html#random-remarks
 ___
 
 ###### Info: Curriculum is subject to change at a future date, be sure to use the [Udacity dashboard](https://www.udacity.com/me#!/).
