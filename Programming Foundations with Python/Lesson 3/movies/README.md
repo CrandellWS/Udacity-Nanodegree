@@ -36,7 +36,11 @@ ___
           - `git pull`-> pull changes from the remote submodule's repository
           - `git add -A` -> add all changes to the submodule
           - `git commit` -> commit all changes to the submodule
-    - `cd ..` change directories to main project
-    - `git add -A ` -> add all submodule changes to the project
-    - `git commit` -> commit all submodule changes to the project
-    - `git push` -> push all changes to the project's remote repository
+      - `cd ..` change directories to main project
+      - `git add -A ` -> add all submodule changes to the project
+      - `git commit` -> commit all submodule changes to the project
+      - `git push` -> push all changes to the project's remote repository
+    - To use `from ud036_StarterCode import fresh_tomatoes`
+      - Must add `__init__.py` to *ud036_StarterCode directory*
+        - `__init__.py` can be an empty file
+        - see -> https://docs.python.org/tutorial/modules.html#packages
