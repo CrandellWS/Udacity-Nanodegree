@@ -6,6 +6,12 @@
 ### [Lesson 3](https://www.udacity.com/course/viewer#!/c-ud036/l-997889780)
 ---
 
+#### Movie Website Mini-Project
+
+  - Generate an HTML file that plays movie trailers
+    - [Python Source](https://github.com/CrandellWS/Udacity-Nanodegree/tree/9e8353fd04c0e6de35a468c4ff8f2059c1a3de31/Programming%20Foundations%20with%20Python/Lesson%203/movies)
+    - [Live Example](http://bl.ocks.org/CrandellWS/raw/2e7d918cbae163ca9c1b)
+    - [Live Example with source](http://bl.ocks.org/CrandellWS/2e7d918cbae163ca9c1b)
  Lesson 3 YouTube playlist ID: [PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn](https://www.youtube.com/playlist?list=PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn)
 
 ___
