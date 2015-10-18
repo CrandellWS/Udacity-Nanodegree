@@ -1,3 +1,4 @@
+import timeit
 import media
 from ud036_StarterCode import fresh_tomatoes
 
@@ -52,6 +53,51 @@ movies = []
 for movie_name in sorted(movie_dictionary.keys()):
     movies.append(media.Movie(movie_dictionary[movie_name]))
 fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.VALID_RATINGS)
+##print(media.Movie.VALID_RATINGS)
 
-print(media.Movie.__doc__)
+##print(media.Movie.__doc__)
+
+
+
+
+##movies1 = []
+##movies2 = []
+##
+### for movie_name in sorted(movie_dictionary.keys()):
+###     movies.append(media.Movie(movie_dictionary[movie_name]))
+### fresh_tomatoes.open_movies_page(movies)
+### print(media.Movie.VALID_RATINGS)
+##
+### print(media.Movie.__doc__)
+##
+##"""
+##timeit speedtest as suggested by Peter Rowell see -> http://stackoverflow.com/questions/364519/in-python-how-to-i-iterate-over-a-dictionary-in-sorted-order/364588?noredirect=1#comment54206286_364588
+##"""
+##
+##t1 = timeit.Timer('for k,v in sorted(movie_dictionary.items()): movies2.append(media.Movie(v))', setup="from __main__ import movie_dictionary, movies2; import media")
+### while in alone returned 7.55323096123
+### while in posistion 1 returned 7.61528725699
+### while in posistion 2 returned 11.1439747771
+##
+##t2 = timeit.Timer('for k in sorted(movie_dictionary.keys()): movies1.append(media.Movie(movie_dictionary[k]))', setup="from __main__ import movie_dictionary, movies1 ; import media")
+### while in alone returned 7.30837539539
+### while in posistion 1 returned 7.79820640137
+### while in posistion 1 returned 12.2386077339
+##
+##
+##
+##
+####t1r1 = t1.timeit(number=200000)
+####print(t1r1)
+####t1r2 = t1.repeat(number=200000)
+####print(t1r2)
+####t1r2 = t1.repeat(number=200000)
+####print(t1r2)
+##
+##t2r1 = t2.timeit(number=200000)
+##print(t2r1)
+##t2r2 = t2.repeat(number=200000)
+##print(t2r2)
+##t2r2 = t2.repeat(number=200000)
+##print(t2r2)
+
