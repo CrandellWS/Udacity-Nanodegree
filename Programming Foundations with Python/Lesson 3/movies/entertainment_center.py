@@ -46,4 +46,6 @@ movies = []
 for movie_name in sorted(movie_dictionary.keys()):
     movies.append(media.Movie(movie_dictionary[movie_name]))
 #fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.VALID_RATINGS)
+#print(media.Movie.VALID_RATINGS)
+
+print(media.Movie.__doc__)
