@@ -12,7 +12,8 @@
     - [Python Source](https://github.com/CrandellWS/Udacity-Nanodegree/tree/9e8353fd04c0e6de35a468c4ff8f2059c1a3de31/Programming%20Foundations%20with%20Python/Lesson%203/movies)
     - [Live Example](http://bl.ocks.org/CrandellWS/raw/2e7d918cbae163ca9c1b)
     - [Live Example with source](http://bl.ocks.org/CrandellWS/2e7d918cbae163ca9c1b)
- 
+    - [YouTube Video of Mini-Project](https://youtu.be/NC5MoSRxAwQ)
+
  Lesson 3 YouTube playlist ID: [PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn](https://www.youtube.com/playlist?list=PLBxMIgvbjWQgmvBhmcSOAWGKM3-9XAfBn)
 
 ___

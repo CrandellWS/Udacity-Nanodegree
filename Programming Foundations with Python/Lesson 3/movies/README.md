@@ -15,7 +15,8 @@ ___
     - [Python Source](https://github.com/CrandellWS/Udacity-Nanodegree/tree/9e8353fd04c0e6de35a468c4ff8f2059c1a3de31/Programming%20Foundations%20with%20Python/Lesson%203/movies)
     - [Live Example](http://bl.ocks.org/CrandellWS/raw/2e7d918cbae163ca9c1b)
     - [Live Example with source](http://bl.ocks.org/CrandellWS/2e7d918cbae163ca9c1b)
-  
+    - [YouTube Video of Mini-Project](https://youtu.be/NC5MoSRxAwQ)
+    
 #### Notes
 
 ##### How to used `fresh_tomatoes.py` as a submodule
@@ -35,7 +36,7 @@ ___
           - `git add -A` -> add all changes to the submodule
           - `git commit` -> commit all changes to the submodule
           - `git push` -> push changes to the remote submodule's repository
-        - When changes are made to the submodule's repository 
+        - When changes are made to the submodule's repository
           - `git pull`-> pull changes from the remote submodule's repository
           - `git add -A` -> add all changes to the submodule
           - `git commit` -> commit all changes to the submodule
