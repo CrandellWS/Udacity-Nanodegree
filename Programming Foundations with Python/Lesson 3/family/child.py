@@ -27,3 +27,8 @@ class Child(Parent):
             return True
         else:
             return False
+
+    def show_info(self):
+        print("Last Name: " + self.last_name)
+        print("Eye Color: " + self.eye_color)
+        print("Number of Toys: " + self.number_of_toys)
