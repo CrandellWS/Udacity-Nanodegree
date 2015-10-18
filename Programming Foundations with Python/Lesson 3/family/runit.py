@@ -5,5 +5,5 @@ dad = parent.Parent("Hill", "Brown")
 print(dad.last_name)
 
 
-son = child.Child(dad)
+son = child.Child(dad, 12321)
 print(son.last_name)

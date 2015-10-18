@@ -11,10 +11,11 @@ class Child():
         An Object with the last name and eye color
     """
 
-    def __init__(self, parent):
+    def __init__(self, parent, number_of_toys):
         """Inits child with last_name and eye_color."""
         self.last_name = parent.last_name
         self.eye_color = parent.eye_color
+        self.number_of_toys = number_of_toys
 
     def inhertence():
         """Check if able to give inhertence."""
